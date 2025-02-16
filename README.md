@@ -140,7 +140,7 @@ This repository serves as a comprehensive guide to learning HTML & CSS, covering
 To start learning HTML, you can:
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/html-learning.git
+   https://github.com/hasibulhimu49/HTML-CSS.git
    ```
 2. Open the files in a browser or code editor (VS Code recommended).
 
