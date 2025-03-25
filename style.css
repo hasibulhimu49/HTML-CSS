@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #5b9b97;
+    --secondary-color: #00fff0;
+    --background-color: #151925; 
+}
+
+body {
+   text-align: left;
+   background-color: var(--background-color);
+   font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 32px;
+    font-size: large;
+    font-weight: normal;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 32px;
+}
+
+ul li:hover {
+    color: #151925;
+    font-weight: bold;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px; 
+    margin-top: 50px;
+}
+
+#details {
+    max-width: 40%;
+    padding: 32px;
+    box-shadow: 2px 4px 10px rgba(249, 249, 249, 0.4);
+    border-radius: 8px;
+    background: linear-gradient(135deg, #2a2d3a, #3b3f50);
+    color: whitesmoke;
+    margin-left: 32px;
+}
+
+h3, h1, h4, p {
+    margin: 8px;
+}
+
+#details p {
+    max-width: 50%;
+}
+
+/* Profile Image */
+.image-container img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0px 0px 10px rgba(249, 249, 249, 0.5);
+}
+
+/* Social Icons */
+#social {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 8px;
+    gap: 32px;
+}
+
+#social a {
+    color: rgb(247, 247, 247);
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#social a:hover {
+    box-shadow: 0px 0px 10px rgba(253, 0, 0, 0.9);
+    border-radius: 50%;
+    transform: scale(1.1);
+}
+
+#download-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#download {
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#download h4 {
+    color: #151925;
+    margin: 0;
+}
+
+#download:hover {
+    transform: scale(1.1);
+}
+
+#download h4:hover {
+    color: rgb(255, 63, 5);
+}
