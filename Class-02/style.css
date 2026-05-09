@@ -1,9 +1,31 @@
-*{
-    padding: 0;
-    margin: 0;
-    color: white;
+/* Task-01 */
+/* .container{
+height: 350px;
+width: 200px;
+background-color: aqua;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 10px;
+
+} */
+
+
+
+
+
+
+/* Task-02 */
+/* 
 #navbar{
     height: 50px;
     background-color: black;
@@ -22,4 +44,73 @@ a{
     margin-right: 200px;
     padding-left: 10px;
     text-decoration: none;
+} */
+
+
+
+/* Task-03 */
+
+/* .container{
+     display: inline;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+
+    margin: 20px;
+    display: inline-block;
+   
+}
+
+.box2{
+    display: none; 
+    visibility: hidden;
+}  */
+
+/* Task-04 */
+
+#navbar{
+    height: 50px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.logo{
+    color: rgb(210, 136, 17);
+    font-size: 25px;
+}
+
+button{
+    background-color:rgb(210, 136, 17); 
+}
+
+a{
+    margin-right: 200px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.middle{
+    height: 700px;
 }
