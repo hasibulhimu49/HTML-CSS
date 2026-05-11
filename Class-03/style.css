@@ -1,0 +1,79 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+    font-size: 20PX;
+} */
+
+/* .box1{
+    height: 100vh;
+    width: 50VW;
+    height: 50px;
+    width: 50%;
+    border: 2px solid black;
+    background-color: rgb(255, 89, 0);
+    font-size: 2em;
+    font-size: 2rem;
+} */
+
+/* body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.box1{
+    position:fixed;
+    top: 0px;
+    width: 100vw;
+    background-color: gray;
+
+}
+
+.box2{
+    position: static;
+    bottom: 5px;
+    left: 5px;
+}
+
+.box3{
+    position: absolute;
+      bottom: 5px;
+    right: 5px;
+}
+
+.box4{
+    position: absolute;
+    right: 5px;
+    width: 100vw;
+} */
+
+
+
+div{
+    height: 200px;
+    width: 300px;
+    background-color: pink;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.box1{
+    background-image: url("bird.jpg");
+    /* background-size: cover; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.box2{
+   
+}
