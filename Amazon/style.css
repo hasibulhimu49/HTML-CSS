@@ -189,3 +189,88 @@ justify-content: space-evenly;
     font-weight: 700;
     padding-bottom: 4px;
 }
+
+
+/* Panel Section*/
+.panel{
+    height: 40px;
+    background-color: #122626;
+    display: flex;
+}
+
+.multioption1{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 10px;
+}
+.multioption1 p{
+    margin-left: 4px;
+}
+
+.multioption2 {
+    align-content: center;
+    font-size: small;
+    font-weight: 300;
+}
+
+.multioption2 a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    
+}
+
+
+
+/* Hero section */
+
+.hero-section {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    position: relative;  
+}
+
+.hero-section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 120px;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 1)
+    );
+
+    pointer-events: none;
+}
+
+
+.hero-msg{
+    width: 90%;
+    height: 40px;
+    background-color: hsl(0, 0%, 96%);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 250px;
+}
+
+.hero-msg p a{
+    text-decoration: none;
+    color: blue;
+}
